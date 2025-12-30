@@ -3,7 +3,7 @@ import whisper
 from python_transcriber.utils import AudioLoader
 
 class Transcriber:
-    def __init__(self, model_size: str = "base", language: str = "pt"):
+    def __init__(self, model_size: str = "large", language: str = "pt"):
         self.language = language
         self.model = whisper.load_model(model_size)
 
