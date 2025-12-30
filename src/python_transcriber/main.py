@@ -7,7 +7,7 @@ def main():
         language="pt"
     )
 
-    text = transcriber.transcribe("data/raw/ICX503 - Aula 08_11 - EST-UFMG (youtube).mp3")
+    text = transcriber.transcribe("data/raw/Gravando.m4a")
     print("\n📝 Transcrição:")
     print(text)
 
